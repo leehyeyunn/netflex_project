@@ -46,7 +46,7 @@ class TopBar extends StatelessWidget {
           Container(
             padding: EdgeInsets.only(right: 1),
             child: Text(
-              '내가 찜한 콘텐츠',
+              '내가 찜한 콘텐츠 ',
               style: TextStyle(fontSize: 14),
             ),
           ),
