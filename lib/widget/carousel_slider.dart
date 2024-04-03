@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../model/model_movie.dart';
-import 'package:carousel_slider/carousel_slider.dart';
+// import 'package:carousel_slider/carousel_slider.dart';
 
 
 
@@ -39,15 +39,15 @@ class _CarouselImageState extends State<CarouselImage> {
           Container(
             padding: EdgeInsets.all(20),
           ),
-          CarouselSlider(
-            items: images,
-            options:CarouselOptions( onPageChanged:(index, reason){
-              setState((){
-                _currentPage =index;
-                _currentKeyword = keywords[_currentPage];
-              });
-            }),
-          ),
+          // CarouselSlider(
+          //   items: images,
+          //   options:CarouselOptions( onPageChanged:(index, reason){
+          //     setState((){
+          //       _currentPage =index;
+          //       _currentKeyword = keywords[_currentPage];
+          //     });
+          //   }),
+          // ),
         ],
       ),
     );
