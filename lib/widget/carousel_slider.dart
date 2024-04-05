@@ -93,7 +93,7 @@ class _CarouselImageState extends State<CarouselImage> {
                             padding: EdgeInsets.all(3),
                           ),
                           Text(
-                            '재생 ',
+                            '재생',
                             style: TextStyle(color: Colors.black),
                           ),
                         ],
