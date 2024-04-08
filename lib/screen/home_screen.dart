@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:netflex_project/widget/box_slider.dart';
 import 'package:netflex_project/widget/carousel_slider.dart';
+import 'package:netflex_project/widget/circle_slider.dart';
 import '../model/model_movie.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -48,7 +50,13 @@ class _HomeScreenState extends State<HomeScreen> {
             CarouselImage(movies: movies),
             TopBar(),
           ],
-        )
+        ),
+        CircleSlider(
+          movies: movies,
+        ),
+        BoxSlider(
+          movies: movies,
+        ),
       ],
     );
   }

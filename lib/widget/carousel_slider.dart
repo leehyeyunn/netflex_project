@@ -99,22 +99,23 @@ class _CarouselImageState extends State<CarouselImage> {
                           ),
                         ],
                       ),
-                    ))
-              ],
-            ),
-          ),
-          Container(
-            padding: EdgeInsets.only(right: 10),
-            child: Column(
-              children: <Widget>[
-                IconButton(
-                  icon: Icon(Icons.info),
-                  onPressed: () {},
+                    )
                 ),
-                Text(
-                  '정보',
-                  style: TextStyle(fontSize: 11),
-                )
+                Container(
+                  padding: EdgeInsets.only(right: 10),
+                  child: Column(
+                    children: <Widget>[
+                      IconButton(
+                        icon: Icon(Icons.info),
+                        onPressed: () {},
+                      ),
+                      Text(
+                        '정보 ',
+                        style: TextStyle(fontSize: 11),
+                      )
+                    ],
+                  ),
+                ),
               ],
             ),
           ),
