@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:netflex_project/screen/home_screen.dart';
+import 'package:netflex_project/screen/more_screen.dart';
 import 'package:netflex_project/widget/bottom_bar.dart';
 
 // void main() {
@@ -41,11 +42,7 @@ class _MyAppState extends State<MyApp> {
                   child: Text('save'),
                 ),
               ),
-              Container(
-                child: Center(
-                  child: Text('more'),
-                ),
-              ),
+              MoreScreen(),
             ],
           ),
           bottomNavigationBar: Bottom(),
