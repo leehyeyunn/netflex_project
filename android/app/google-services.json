@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "650846877028",
+    "project_id": "test-5c129",
+    "storage_bucket": "test-5c129.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650846877028:android:ec19be53eede6ae7d23671",
+        "android_client_info": {
+          "package_name": "com.example.netflex_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtmcJgkXQkFOh-6hHXZ2yMKFA25K95aj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
