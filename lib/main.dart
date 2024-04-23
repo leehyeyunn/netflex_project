@@ -19,7 +19,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'hyleeFlix',
+      title: 'hyleeNetfilx',
       theme: ThemeData(
         brightness: Brightness.dark,
         primaryColor: Colors.black,
